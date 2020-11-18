@@ -11,6 +11,22 @@ The changes that have been made to the spaceship game is as follows:
     - A shield that protects the player from colliding with enemeis for 4 seconds, animated.
     - A bomb that destroys all enemies in the game.
 - Enemy spawns are now moving linearly across the X-axis to make the spawn position more random.
+[](./unity-tasks/Assets/Scripts/1-movers)
+- Additional Scripts
+
+    - [1-movers\LineLoopMover.cs (osciliator)](./unity-tasks/Assets/Scripts/1-movers\LineLoopMover.cs)
+    - [2-spawners\RandomSpeedObjectSpawner.cs](./unity-tasks/Assets/Scripts/2-spawners\RandomSpeedObjectSpawner.cs)
+    - [2-spawners\TimedItemSpawner.cs](./unity-tasks/Assets/Scripts/2-spawners\TimedItemSpawner.cs)
+    - [3-collisions\DestroySelfOnCollision2D.cs](./unity-tasks/Assets/Scripts/3-collisions\DestroySelfOnCollision2D.cs)
+    - [3-collisions\DestroyOnCollision2D.cs](./unity-tasks/Assets/Scripts/3-collisions\DestroyOnCollision2D.cs)
+    - [3-collisions\DestroyOtherOnCollision2D.cs](./unity-tasks/Assets/Scripts/3-collisions\DestroyOtherOnCollision2D.cs)
+    - [3-collisions\WarpOnTrigger2D.cs](./unity-tasks/Assets/Scripts/3-collisions\WarpOnTrigger2D.cs)
+    - [3-collisions\WinOnCollision.cs](./unity-tasks/Assets/Scripts/3-collisions\WinOnCollision.cs)
+    - [4-rotators\Rotator.cs](./unity-tasks/Assets/Scripts/4-rotators\Rotator.cs)
+    - [DestoryAllEnemeies.cs](./unity-tasks/Assets/Scripts/DestoryAllEnemeies.cs)
+    - [GameOverText.cs](./unity-tasks/Assets/Scripts/GameOverText.cs)
+- Changed Scripts
+    - [3-collisions\ShieldThePlayer.cs](./unity-tasks/Assets/Scripts/3-collisions\ShieldThePlayer.cs)
 
 ## Task 2
 Note: Features are added to the scenes at each additional scene.
